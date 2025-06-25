@@ -1,0 +1,2 @@
+# sppr_for_niokr
+Diploma_project_for_magistrature
