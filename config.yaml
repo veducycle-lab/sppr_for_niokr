@@ -1,0 +1,12 @@
+yandex_api_key: ""
+openai_api_key: ""
+deepseek_api_key: ""
+gigachat_access_token: ""
+max_chunk_tokens: 2000
+ui:
+  theme: "light"
+
+prompts:
+  ontology_short: "Выдели ключевые понятия и связи в следующем тексте в формате: СУЩНОСТЬ – СВЯЗЬ – СУЩНОСТЬ.\n\n{fragment}"
+  ontology_medium: "Сделай краткий обзор текста, выдели ключевые сущности и факты в формате триплетов: СУЩНОСТЬ – СВЯЗЬ – СУЩНОСТЬ.\n\n{fragment}"
+  ontology_long: "Текст слишком большой. Сделай сжатую версию и выдели ключевые взаимосвязи понятий (триплеты):\n\n{fragment}"
